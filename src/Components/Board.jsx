@@ -1,9 +1,25 @@
-import React from 'react'
+import React from "react";
 
 function Board() {
   return (
-    <div>Board</div>
-  )
+    <div className={StyleSheet.container}>
+      <div className={StyleSheet.row_container}>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div className={StyleSheet.row_container}>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div className={StyleSheet.row_container}>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+  );
 }
 
-export default Board
+export default Board;
