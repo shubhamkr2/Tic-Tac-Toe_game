@@ -20,9 +20,6 @@ function Board() {
       setIsxTurn(!isxTurn);
     }
     return;
-
-    // console.log(state.length);
-    console.log("clicked", index);
   }
 
   return (
