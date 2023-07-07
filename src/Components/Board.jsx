@@ -23,6 +23,9 @@ function Board() {
   }
 
   return (
+    <>
+    <span>Player "O"</span>
+    <span>Player "X"</span>
     <div className={styles.container}>
       <div className={styles.row_container}>
         <Card value={state[0]} index={0} handleClick={handleClick} />
@@ -46,6 +49,7 @@ function Board() {
         <Card value={state[8]} index={8} handleClick={handleClick} />
       </div>
     </div>
+    </>
   );
 }
 
