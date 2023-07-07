@@ -12,3 +12,25 @@
 .container .row_container {
     width: 100%;
 }
+.active_player{
+    display: flex;
+    justify-content: space-around;
+    /* gap: 10px; */
+}
+span{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: rgb(27, 25, 25);
+    margin-top: 20px;
+    color: white;
+}
+.active{
+    background-color: rgb(228, 84, 18);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 2px solid red;
+}
