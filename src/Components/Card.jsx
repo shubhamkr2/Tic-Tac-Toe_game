@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import styles from "../Styles/Card.module.css";
 
 function Card() {
   return (
-    <div>
-        <h3>x</h3>
+    <div className={styles.card_container}>
+      <h3>x</h3>
     </div>
-  )
+  );
 }
 
-export default Card
+export default Card;
