@@ -26,10 +26,10 @@ function Board() {
     <>
       <div className={styles.active_player}>
         <span className={isxTurn ? styles.default : styles.active}>
-         (A) Turn- O
+          (A) Turn- O
         </span>
         <span className={isxTurn ? styles.active : styles.default}>
-         (B) Turn- X
+          (B) Turn- X
         </span>
       </div>
       <div className={styles.container}>
@@ -55,7 +55,9 @@ function Board() {
           <Card value={state[8]} index={8} handleClick={handleClick} />
         </div>
       </div>
-      <button className={styles.reset} onClick={() => setState(initialState)}>Reset</button>
+      <button className={styles.reset} onClick={() => setState(initialState)}>
+        Reset
+      </button>
     </>
   );
 }
