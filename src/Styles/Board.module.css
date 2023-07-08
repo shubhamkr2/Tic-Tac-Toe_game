@@ -1,60 +1,60 @@
-.container{
-    max-width: 600px;
-    min-width: 300px;
-    /* height: 100vh; */
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: auto;
-    margin-top: 20px;
-    /* padding: 0px 100px 0px 100px; */
+.container {
+  max-width: 600px;
+  min-width: 300px;
+  /* height: 100vh; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  margin-top: 20px;
+  /* padding: 0px 100px 0px 100px; */
 }
 .container .row_container {
-    width: 100%;
+  width: 100%;
 }
-.active_player{
-    display: flex;
-    justify-content: space-around;
-    /* gap: 10px; */
+.active_player {
+  display: flex;
+  justify-content: space-around;
+  /* gap: 10px; */
 }
-span{
-    border: 2px solid black;
-    border-radius: 20px;
-    padding: 10px 15px;
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.2rem;
-    background-color: rgb(27, 25, 25);
-    margin-top: 20px;
-    color: white;
+span {
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 10px 15px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  background-color: rgb(27, 25, 25);
+  margin-top: 20px;
+  color: white;
 }
-.active{
-    background-color: rgb(228, 84, 18);
-    color: white;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border: 2px solid red;
+.active {
+  background-color: rgb(228, 84, 18);
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: 2px solid red;
 }
-.reset{
-    margin: auto;
-    display: block;
-    margin-top: 20px;
-    background-color: red;
-    color: white;
-    font-size: 1rem;
-    border-radius: 15px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border: none;
-    padding:10px;
+.reset {
+  margin: auto;
+  display: block;
+  margin-top: 20px;
+  background-color: red;
+  color: white;
+  font-size: 1rem;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: none;
+  padding: 10px;
 }
-.winner{
-    border: 2px solid yellow;
-    height: 80px;
-    background-image: linear-gradient(red, yellow);
-    font-size: 2rem;
-    font-weight: bold;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 50px;
+.winner {
+  border: 2px solid yellow;
+  height: 80px;
+  background-image: linear-gradient(red, yellow);
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
 }
