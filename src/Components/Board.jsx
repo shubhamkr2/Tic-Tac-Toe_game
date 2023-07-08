@@ -45,7 +45,7 @@ function Board() {
     return null;
   }
   let winner = checkWinner();
-  console.log(!state.includes(null));
+  
   return (
     <>
       {!state.includes(null) && !winner ? (
