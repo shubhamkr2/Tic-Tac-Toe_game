@@ -9,6 +9,7 @@
 }
 .container .row_container {
   width: 100%;
+  font-size: 2rem;
 }
 .active_player {
   display: flex;
