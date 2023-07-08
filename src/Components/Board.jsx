@@ -34,8 +34,8 @@ function Board() {
       [2, 4, 6], // Diagonal
     ];
 
-    for (const combination of winningCombinations) {
-      const [a, b, c] = combination;
+    for (let i=0; i<winningCombinations.length; i++) {
+      const [a, b, c] = winningCombinations[i];
       if (state[a] !== null && state[a] === state[b] && state[a] === state[c]) {
         // We have a winner
         return state[a];
