@@ -59,3 +59,9 @@ span {
   justify-content: center;
   margin: 50px;
 }
+.game_name{
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(211, 3, 141);
+  text-align: center;
+}

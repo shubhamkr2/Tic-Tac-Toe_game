@@ -54,6 +54,7 @@ function Board() {
         <div className={styles.winner}>Congratulation Winner is {winner}</div>
       ) : (
         <>
+        <div className={styles.game_name}>Tic-Tac-Toe</div>
           <div className={styles.active_player}>
             <span className={isxTurn ? styles.default : styles.active}>
               (A) Turn- O
