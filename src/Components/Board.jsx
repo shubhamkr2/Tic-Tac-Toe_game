@@ -49,7 +49,7 @@ function Board() {
   return (
     <>
       {winner ? (
-        <div className={styles.winner}>Winner {winner}</div>
+        <div className={styles.winner}>Congratulation Winner is {winner}</div>
       ) : (
         <>
           <div className={styles.active_player}>
