@@ -45,10 +45,13 @@ function Board() {
     return null;
   }
   let winner = checkWinner();
-  console.log(winner);
+  console.log(!state.includes(null));
   return (
     <>
-      {winner ? (
+    {
+      !state.includes(null) && !winner? <div className={styles.winner}>Ohh...its Draw</div>:
+    
+      winner ? (
         <div className={styles.winner}>Congratulation Winner is {winner}</div>
       ) : (
         <>
